@@ -14,8 +14,8 @@ export const timeline = [
     description: 'A horror game set in the Hull University library made in collaboration with a friend to demonstrate game development skills.',
     tech: ['C#', 'Unity'],
     image: '/projects/library.png',
-    link: "",
-    github: null
+    link: null,
+    github: "#"
   },
   {
     year: '2024',
