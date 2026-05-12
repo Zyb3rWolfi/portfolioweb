@@ -168,6 +168,60 @@ onUnmounted(() => {
   align-items: center;
 }
 
-/* Ensure your page has enough padding at the top so the floating bar 
-   doesn't overlap your Splashpage content initially */
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  .navbar {
+    width: 95%; /* Take up more width on mobile */
+    top: 10px;
+    padding: 0.6rem 5%;
+    gap: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.1rem; /* Smaller logo */
+  }
+
+  /* Hide text links or make them horizontal scrollable */
+  .nav-links {
+    gap: 1rem;
+    overflow-x: auto; /* Allow side-scrolling if links are too wide */
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar for clean look */
+  }
+  
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-item {
+    font-size: 0.8rem;
+  }
+
+  /* Hide the "Download CV" text, just keep the icon/button smaller */
+  .cv-button {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  /* Hide the text "Download CV" but keep the button functional */
+  .cv-button span:not(.download-icon) {
+    display: none;
+  }
+
+  .actions {
+    gap: 0.5rem;
+  }
+}
+
+/* Extra small screens (Phones in portrait) */
+@media (max-width: 480px) {
+  .logo {
+    display: none; /* Hide logo to save space for nav links */
+  }
+  
+  .navbar {
+    justify-content: center; /* Center links if logo is gone */
+  }
+}
 </style>

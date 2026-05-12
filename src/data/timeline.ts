@@ -6,7 +6,7 @@ export const timeline = [
     tech: ['C++', 'OpenGL'],
     image: '/projects/engine.png',
     link: null,
-    github: '#'
+    github: 'https://github.com/Zyb3rWolfi/graphicsengine'
   },
   {
     year: '2026',
@@ -15,7 +15,7 @@ export const timeline = [
     tech: ['C#', 'Unity'],
     image: '/projects/library.png',
     link: null,
-    github: '#'
+    github: null
   },
   {
     year: '2024',
@@ -23,7 +23,7 @@ export const timeline = [
     description: 'Developed a way to document snippet libraries with a focus on ease of use and accessibility for developers.',
     tech: ['Vue 3', 'Vite', 'MySQL', 'Laravel'],
     image: '/projects/codebranch.png',
-    link: '#',
+    link: 'https://codebranch.me',
     github: '#'
   },
 

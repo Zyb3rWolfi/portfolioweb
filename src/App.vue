@@ -39,6 +39,7 @@ const scrollToContact = () => {
     @scroll-to-experience="scrollToExperience" 
     @scroll-to-contact="scrollToContact" 
   />
+  <ScrollLinks/>
 
   <div class="container" id="home" ref="home">
     <Splashpage @scroll-to-content="scrollToAboutMe" />

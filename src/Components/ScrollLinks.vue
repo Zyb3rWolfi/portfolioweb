@@ -1,18 +1,18 @@
 <template>
   <div class="social-sidebar">
-    <a href="https://github.com/yourusername" target="_blank" class="social-icon" title="GitHub">
+    <a href="https://github.com/zyb3rwolfi" target="_blank" class="social-icon" title="GitHub">
       <GithubIcon :size="20" />
     </a>
     
-    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/antonscereskevics/" target="_blank" class="social-icon" title="LinkedIn">
       <LinkedinIcon :size="20" />
     </a>
     
-    <a href="mailto:your@email.com" class="social-icon" title="Email">
+    <a href="mailto:antonscereskevics@proton.me"class="social-icon" title="Email">
       <MailIcon :size="20" />
     </a>
 
-    <a href="https://fiverr.com/yourusername" target="_blank" class="social-icon fiverr" title="Fiverr">
+    <a href="https://www.fiverr.com/s/gD7RK8A" target="_blank" class="social-icon fiverr" title="Fiverr">
       <span class="fiverr-text">fi</span>
     </a>
   </div>

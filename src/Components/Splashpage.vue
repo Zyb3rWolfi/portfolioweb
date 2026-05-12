@@ -120,4 +120,31 @@ defineEmits(['scroll-to-content'])
   40% { transform: translateX(-50%) translateY(-10px); }
   60% { transform: translateX(-50%) translateY(-5px); }
 }
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 5%; /* Give more room on the sides */
+    min-height: 80vh; /* Prevent overlapping with the floating navbar */
+  }
+
+  .name {
+    font-size: 1.8rem; /* Scale down the font */
+    white-space: normal; /* CRITICAL: Allow text to wrap to next line */
+    width: auto; /* Reset width for mobile */
+    animation: fadeIn 1s ease forwards; /* Use fadeIn instead of typing */
+  }
+
+  /* Adjust the description for mobile */
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    animation-delay: 0.5s; /* Faster reveal on mobile */
+  }
+
+  /* Make the scroll arrow smaller so it doesn't hit the text */
+  .scroll-down {
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+  }
+}
 </style>
